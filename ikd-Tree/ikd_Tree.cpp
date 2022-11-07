@@ -210,7 +210,7 @@ void KD_TREE<PointType>::multi_thread_rebuild(){
         if (Rebuild_Ptr != nullptr ){                    
             /* Traverse and copy */
             if (!Rebuild_Logger.empty()){
-                printf("\n\n\n\n\n\n\n\n\n\n\n ERROR!!! \n\n\n\n\n\n\n\n\n");
+                std::cerr << "KDtree Rebuild: Empty rebuild logger not empty" << std::endl;
             }
             rebuild_flag = true;
             if (*Rebuild_Ptr == Root_Node) {
