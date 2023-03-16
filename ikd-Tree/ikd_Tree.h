@@ -1,11 +1,11 @@
 #pragma once
-#include <stdio.h>
+#include <cstdio>
 #include <queue>
-#include <pthread.h>
+#include <thread>
 #include <chrono>
-#include <time.h>
+#include <ctime>
 #include <unistd.h>
-#include <math.h>
+#include <cmath>
 #include <algorithm>
 #include <memory>
 #include <pcl/point_types.h>
